@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms II</title>
+</head>
+<body>
+    <h1>Fill your CV</h1>
+    <form action="action_page.php">
+        
+  <fieldset>
+<legend>Personal Data </legend>
+    <label for="Provincia">Provincia</label><br>
+    <select name="Provincia" id="Provincia">
+<option value="A coruña">A coruña</option>
+<option value="Pontevedra" >Pontevedra</option>
+<option value="Lugo">Lugo</option>
+<option value="Ourense">Ourense</option>
+ </select>
+<br><br>
+<label for="Date of birth">Date of birth</label><br>
+<input type="text">of
+<select name="months" id="months">
+<option value="January">January</option>
+<option value="February">February</option>
+<option value="March">March</option>
+<option value="April">April</option>
+<option value="May">May</option>
+<option value="June">June</option>
+<option value="July">July</option>
+<option value="August">August</option>
+<option value="September">September</option>
+<option value="October">October</option>
+<option value="November">November</option>
+<option value="December">December</option>
+</select>
+of <input type="text">
+<br><br>
+<label for="Interest">Topic of Interest</label>
+<br>
+<select name="topics" id="topics" size="5">
+    <option>Database administration</option>
+    <option>Analysis and programming</option>
+    <option>Architecture</option>
+    <option>Quality</option>
+    <option>ERP,CRM,Businness inteligence</option>
+</select>
+
+</fieldset>
+ </form>
+</body>
+</html>
