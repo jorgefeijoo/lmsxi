@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms III</title>
+</head>
+
+<body>
+    <h1>Product information</h1>
+    <fieldset>
+        <legend>Basic information</legend>
+<form action="/action_page.php" autocomplete="off">
+        <label for="Name">Name</label><br>
+        <input type="text" name="name_product" id="name_product" required autofocus><br><br>
+        <label for="Description">Description</label><br>
+        <textarea name="" id=""></textarea><br><br>
+        <label for="foto">Photo</label>
+        <input type="file"><br><br>
+        <input type="checkbox" name="visitor" id="Add visit counter"> Add visit counter <br><br>
+        <input type="submit">
+    </form>
+    </fieldset>
+    <fieldset>
+        <legend>Economic information</legend>
+        <label for="price"> Price</label>
+        <input type="text">€Taxes <select name="€Taxes" id="€Taxes">
+            <option value="4%">4%</option>
+            <option value="5%">5%</option>
+            <option value="6%">6%</option>
+
+        </select><br><br>
+        <label for="Promotion">Promotion</label><br>
+        <input type="radio" name="Promotion" id="none">none <br>
+        <input type="radio" name="Promotion" id="Free transport">Free transport <br>
+        <input type="radio" name="Promotion" id="5% discount">5% discount
+    </fieldset>
+  
+</body>
+
+</html>
