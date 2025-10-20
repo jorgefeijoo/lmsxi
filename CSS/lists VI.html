@@ -1,45 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>lists VI</title>
-</head>
-<style>
+  </head>
+  <style>
+    ul {
+      width: 700px;
+      list-style: none;
+      border: 1px solid black;
+      margin: 0px;
+      padding: 0px;
+      border-bottom: none;
+    }
+
     li {
-        list-style: none;
-        border: 1px solid black;
-        border-collapse: collapse;
-        padding: 10px;
+      border-bottom: 1px solid black;
+      padding: 10px;
     }
 
     li:hover {
-        background-color: #e4e4e4;
+      background-color: #e4e4e4;
     }
 
     li:hover::before {
-        content: url("flecha_activa.png");
-
+      content: url("flecha_activa.png");
     }
 
     li::before {
-        content: url("flecha_inactiva.png");
-        margin-right: 10px;
+      content: url("flecha_inactiva.png");
+      margin-right: 10px;
     }
-</style>
 
-<body>
+    a {
+      color: black;
+      text-decoration: none;
+    }
+  </style>
+
+  <body>
     <ul>
-        <li><a href="apartado5">Elemento 1</a></li>
-        <li><a href="apartado5">Elemento 2</a></li>
-        <li><a href="apartado5">Elemento 3</a></li>
-        <li><a href="apartado5">Elemento 4</a></li>
-        <li><a href="apartado5">Elemento 5</a></li>
-        <li><a href="apartado5">Elemento 6</a></li>
+      <li><a href="apartado5">Elemento 1</a></li>
+      <li><a href="apartado5">Elemento 2</a></li>
+      <li><a href="apartado5">Elemento 3</a></li>
+      <li><a href="apartado5">Elemento 4</a></li>
+      <li><a href="apartado5">Elemento 5</a></li>
+      <li><a href="apartado5">Elemento 6</a></li>
     </ul>
-
-
-</body>
-
+  </body>
 </html>
