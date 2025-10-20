@@ -3,7 +3,46 @@ body{
   line-height: 1.4;
   border: 5px;
 }
-h1{
+h2{
   background-color: #f7f7f7;
-  text-transform: capitalize;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 22px;
+}
+p.precio{
+  font-size: 24px;
+}
+p.EnvioGratis{
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #777;
+}
+a{
+  color: black;
+}
+a:hover{
+  text-decoration: none;
+}
+h3{
+  font-size: 18px;
+  text-transform: uppercase;
+}
+ul{
+  list-style-type: square;
+}
+button{
+  font-size: 20px;
+  text-transform: uppercase;
+  background-color: black;
+  color: white;
+}
+button:hover{
+  background-color:white;
+  color: black;
+}
+article{
+  border: 2px solid black;
+  padding: 10px;
+  margin: 10px;
 }
