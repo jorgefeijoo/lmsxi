@@ -1,0 +1,62 @@
+li:first-child{
+    font-weight: bold;
+}
+li:last-child{
+    font-style: italic;
+}
+li:nth-child(even){
+  color: red;
+}
+a:link{
+    text-decoration: none;
+    color: #1098ad;
+}
+a:visited{
+    color: #1027ad;
+}
+a:hover{
+    font-weight: bold;
+    color: orangered;
+}
+a:active{
+    background-color: black;
+    font-style: italic;
+}
+nav a{
+    margin-right: 30px;
+    margin-top: 10px;
+    display: inline-block;
+}
+nav a:last-child{
+    margin-right: 0;
+}
+h1::first-letter{
+    font-style: normal;
+    margin-right: 5px;
+}
+h2::before{
+    content: "TOP";
+    background-color: yellow;
+    padding: 10px;
+}
+.img-post {
+   width: 100%; 
+}
+.meGusta {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+body {
+    position: relative;
+}
+.contenedorPrincipal {
+    margin: 0 auto;
+}
+ol, ul{
+    margin: 0;        
+    padding-left: 20px;  
+    list-style-position: inside; 
+}
