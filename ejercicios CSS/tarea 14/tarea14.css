@@ -1,0 +1,42 @@
+a{
+  text-decoration: none;
+  color: white;
+}
+*{
+  box-sizing: border-box;
+}
+ul{
+  list-style-type:none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+li{
+  color: white;
+  background-color: black;
+  text-decoration: none;
+  display: block;
+  padding: 8px;
+  flex-basis: 25%;
+  
+}
+.home{
+  background-color: rgb(15, 151, 15);
+}
+li:hover{
+  background-color:grey;
+}
+.home:hover{
+  background-color: rgb(15,151,15);
+}
+@media (max-width: 450px) {
+   li{
+    flex-basis:100%;
+  }
+}
+nav{
+  position: sticky;
+  top: 0;
+}
+ 
