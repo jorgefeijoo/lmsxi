@@ -1,3 +1,54 @@
+*{
+    box-sizing: border-box;
+    
+}
 h1{
-  background-color:rgb(230, 7, 230);
+    /*display flex alinea elementos en filas*/
+    display: flex;
+    width: 100%;
+    background-color: darkviolet;
+    height: 100px;
+    color: white;
+    text-align: left;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.contenedorP{
+    display: fleX;
+    
+}
+ul{
+    list-style: none;    
+}
+/*son elementos en linea*/
+a{
+    text-decoration: none;
+    color:white; 
+      /*centra verticalmente el contenido*/
+    align-items: center;
+    
+    /*espacio interno 10 desde la izquierda*/
+    padding-left: 10px;
+    /*falta centrar letras*/
+
+}
+li{
+    margin-bottom: 10px;
+    width: 12%;
+    height: 30px;
+    border: 2px solid blue;
+    background-color: dodgerblue;
+}
+.pie{
+    display: flex;
+    width: 100%;
+    height: 60px;
+    border: 2px solid blue;
+    background-color: dodgerblue;
+}
+.textoP{
+    color: white;
+    padding-left: 30%;
+    align-items: center;
 }
