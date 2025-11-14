@@ -1,54 +1,56 @@
 *{
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
     
 }
-h1{
-    /*display flex alinea elementos en filas*/
-    display: flex;
-    width: 100%;
+header{
     background-color: darkviolet;
     height: 100px;
     color: white;
-    text-align: left;
-    align-items: center;
-    padding-left: 10px;
-}
-
-.contenedorP{
-    display: fleX;
+    padding: 15px;
     
 }
-ul{
-    list-style: none;    
-}
-/*son elementos en linea*/
-a{
-    text-decoration: none;
-    color:white; 
-      /*centra verticalmente el contenido*/
-    align-items: center;
-    
-    /*espacio interno 10 desde la izquierda*/
-    padding-left: 10px;
-    /*falta centrar letras*/
 
-}
-li{
-    margin-bottom: 10px;
-    width: 12%;
-    height: 30px;
-    border: 2px solid blue;
-    background-color: dodgerblue;
-}
-.pie{
+section{
     display: flex;
-    width: 100%;
-    height: 60px;
-    border: 2px solid blue;
-    background-color: dodgerblue;
+    text-align: justify;
 }
-.textoP{
+
+nav a{
+    background-color: #29b6f6;
+    text-decoration: none;
+    display: block;
+    border: 1px solid black;
     color: white;
-    padding-left: 30%;
-    align-items: center;
+    padding: 8px;
+    margin: 5px;
+    
+}
+
+footer{
+    background-color: #0099cc;
+    color: white;
+    text-align: center;
+    font-size: 0.8rem;
+    padding: 15px;
+    text-align: left;
+}
+nav{
+    flex-basis: 25%;
+    display: flex;
+    flex-direction: column;
+}
+.texto{
+    flex-basis: 75%;
+    padding: 15px;
+    
+}
+body{
+    margin: 8px;
+}
+@media screen and (max-width: 450px) {
+    section {
+        flex-direction: column;
+    }
 }
