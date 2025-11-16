@@ -1,0 +1,43 @@
+header{
+    background-color: #29b6f6;
+    color: white;
+    text-align:center ;
+    height: 50px;
+    
+}
+footer{
+    background-color: #29b6f6;
+    color: white;
+    text-align:center ;
+    height: 40px;
+    padding : 1px ;
+}
+.ordenador{
+border: 1px ;
+border-radius: 3%;
+background-color: white;
+padding: 10px;
+margin: 20px;
+
+
+}
+button{
+    background-color: #29b6f6;
+    color: white;
+    border: none;
+    margin: 10px;
+}
+section{
+    display: flex;
+    justify-content:center ;
+justify-content: space-around;
+gap: 20px;
+
+}
+*{
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: #eeeeee;
+}
