@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-color: #f2f2f2;
+    margin: 0 auto;
+}
+footer{
+    display: flex;
+    background-color: #73dde1;
+    gap: 5px;
+    justify-content: center;
+    border: 1px solid black;
+    border-bottom: 8px solid black;
+    color: rgba(0, 0, 128, 0.562);
+}
+.Registration:hover{
+    color: red;
+}
+.formularios{
+height: 70vh;
+display: grid;
+grid-template-columns:200px 200px 200px;
+grid-template-rows: 200px 200px 200px;
+justify-content:space-around;
+justify-items: center;
+align-items: center;
+
+
+}
+.formulario1{
+ display: grid;
+    grid-template-columns: 50px 1fr;
+    row-gap: 20px;
+    grid-row: 2/3;
+    grid-column: 1/2;
+    background-color: #73dde1;
+   padding: 12px;
+   border: 1px solid blue;
+   border-radius: 8px;
+}
+.formulario2{
+   display: flex;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    background-color: #73dde1;
+   padding: 20px;
+    border: 1px solid blue;
+    border-radius: 8px;
+}
+.boton1{
+
+ flex-direction: column;
+  background-color: #73dde1;
+  height: 100px;
+  padding: 15px;
+   border: 1px solid blue;
+   border-radius: 7px;
+   
+}
+.boton2{
+
+ flex-direction: column;
+  background-color: #73dde1;
+  height: 100px;
+  padding: 15px;
+   border: 1px solid blue;
+   border-radius: 7px;
+  
+}
+.botones{
+    display: flex;
+    flex-direction: column;
+ grid-column: 3/4;
+  grid-row: -3/-2;
+  gap: 20px;
+  flex-wrap: nowrap;
+}
+#email:hover{
+    background-color: yellow;
+}
+#Name:hover{
+    background-color: yellow
+}
+@media(max-width:500px){
+    .formularios{
+       display: flex;
+        flex-direction: column;
+    }
+    .botones{
+        display: flex;
+        flex-direction: row;
+    }
+    .formulario1{
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    row-gap: 20px;
+    }
+}
