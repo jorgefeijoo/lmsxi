@@ -1,5 +1,45 @@
 button{
+    grid-column: 1 / -1;
+    padding: 0.75rem;
     background-color: dodgerblue;
-    width: 80%;
+    width: 100%;
     height: 50px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+h1{
+    text-align: center;
+}
+
+.formulario{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    gap: 1rem;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: whitesmoke;
+    max-width: 600px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.radios{
+    display: flex;
+    gap: 2rem;
+    text-align: center;
+}
+@media(max-width: 500px){
+    .formulario{
+    grid-template-columns: 1fr;
+}
+.formulario label{
+    text-align: left;
+    font-weight: bold;
+}
+.radios{
+    flex-direction: column;
+    align-items: flex-start;
+}
 }
