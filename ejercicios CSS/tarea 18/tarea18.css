@@ -8,7 +8,7 @@ header{
     background-color: darkviolet;
     height: 100px;
     color: white;
-    padding: 15px;
+    padding: 30px;
     grid-column: 1/-1;
     align-self: stretch;
 }
@@ -56,7 +56,7 @@ body{
     height: 70vh;
     align-items: center;
     grid-template-columns: 1fr 3fr;
-    grid-template-columns: 1fr 2fr 3fr;
+    
 }
 @media screen and (max-width: 450px) {
     body {
