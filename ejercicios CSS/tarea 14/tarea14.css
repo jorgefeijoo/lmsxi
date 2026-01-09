@@ -23,6 +23,7 @@ nav{
   position: sticky;
   top: 0;
   display: flex;
+  
 }
 nav a{
   text-decoration: none;
@@ -30,6 +31,6 @@ nav a{
   background-color: black;
   padding: 8px;
   display: block;
-  flex-grow: 1;
+  flex-grow: 1;9
 }
  

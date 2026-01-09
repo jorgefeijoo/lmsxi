@@ -20,11 +20,10 @@ footer{
 }
 .formularios{
 height: 70vh;
-display: grid;
-grid-template-columns:200px 200px 200px;
-grid-template-rows: 200px 200px 200px;
+display: flex;
+
 justify-content:space-around;
-justify-items: center;
+
 align-items: center;
 
 
