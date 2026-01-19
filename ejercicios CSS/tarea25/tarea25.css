@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0 auto;
+}
+header{
+    display: flex;
+ justify-content: space-between;
+    background-color: rgb(73, 72, 72);
+    color: white;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+}
+nav{
+    display: flex;
+    gap: 20px;
+    padding: 25px;
+}
+form{
+    display: grid;
+    grid-template-columns: 200px 200px  ;
+    margin: 20px;
+    
+
+   
+}
+.fname{
+   justify-items: center;
+  
+    grid-column: 1/2 ;
+
+}
+.lname{
+    grid-column: 2/3;
+    justify-items: center;
+   
+   
+}
+.email{
+   display: flex;
+   flex-direction: column;
+    grid-column: 1/3;
+   margin-top: 20px;
+}
+.message{
+     display: flex;
+     flex-direction: column;
+     grid-column: 1/3;
+     margin-top: 20px;
+   
+}
+.boton{
+   
+ 
+    align-items: center;
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px;
+     background-color: rgb(73, 72, 72);
+    color: white;
+}
+section h2 {
+    text-align: center;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cajaBoton{
+    grid-column: 1/3;
+}
+@media (max-width:500px){
+    form{
+        display: flex;
+        flex-direction: column;
+    }
+    .fname{
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    .lname{
+display: flex;
+flex-direction: column;
+margin-top: 20px;
+    }
+    header{
+        flex-direction: column;
+        align-items: center;
+    }
+}
