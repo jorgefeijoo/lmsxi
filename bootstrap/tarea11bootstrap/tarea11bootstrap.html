@@ -10,53 +10,33 @@
 </head>
 
 <body>
-  <div class="container mt-3">
-    <h1>Opcions de menu que mostran diferentes. </h1>
+ 
+ <div class="container mt-3">
+ 
+  <h1>
+  Opcions de menu que muestran distintos textos
+ </h1>
+ 
+  <ul class="nav nav-tabs">
+  <li class="nav-item">
+    <a class="nav-link active" data-bs-toggle="tab" href="#home">Link1</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" data-bs-toggle="tab" href="#menu1"> Link2</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" data-bs-toggle="tab" href="#menu2">Link3</a>
+  </li>
+</ul>
 
-    <nav class="navbar navbar-expand-sm bg-light mb-3">
-      <div class="container-fluid">
-        <ul class="navbar-nav">
+<!-- Tab panes -->
+<div class="tab-content">
+  <div class="tab-pane container active" id="home"> <h2>Primero</h2>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam nihil cum optio doloremque, mollitia soluta dicta architecto. Soluta nostrum adipisci necessitatibus, quibusdam cum in error molestiae optio sequi porro ex.</div>
+  <div class="tab-pane container fade" id="menu1"><h2>Segundo</h2>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa placeat rem ex esse dolor sint magnam quia blanditiis nam unde. Amet ullam quod nemo accusamus aspernatur, sunt corrupti dolorum illum.</div>
+  <div class="tab-pane container fade" id="menu2"><h2>Tercero</h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias perferendis, sapiente veniam aliquam culpa assumenda, illum blanditiis ducimus suscipit dicta sit hic nulla deleniti sequi officiis ullam consequuntur eum soluta.</div>
+</div>
 
-          <li class="nav-item">
-            <a class="nav-link active" data-bs-toggle="tab" href="#c1">Link 1</a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link" data-bs-toggle="tab" href="#c2">Link 2</a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link" data-bs-toggle="tab" href="#c3">Link 3</a>
-          </li>
-
-        </ul>
-      </div>
-    </nav>
-
-    <div class="tab-content">
-
-      <div id="c1" class="container tab-pane fade">
-        <h3>Contenido 1</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore
-          magna aliqua.</p>
-      </div>
-
-      <div id="c2" class="container tab-pane fade">
-        <h3>Contenido 2</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At nam aut sapiente cum dolorum consequatur error
-          fugiat commodi, ullam nulla repellat et libero nihil esse fugit mollitia! Ipsum, tempore harum.</p>
-      </div>
-
-      <div id="c3" class="container tab-pane fade">
-        <h3>Contenido 3</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus voluptate, expedita error optio repudiandae
-          atque dolore, natus, omnis delectus necessitatibus perspiciatis magnam at. Harum ipsam minima ipsa. Earum, est
-          dolor?</p>
-      </div>
-
-    </div>
-
-  </div>
+</div>
 </body>
 
 </html>
