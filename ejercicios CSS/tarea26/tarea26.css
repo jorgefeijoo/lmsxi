@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+
+}
+body{
+    margin: 0 auto;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(49, 49, 49);
+    color: white;
+   
+}
+nav a{
+    text-decoration: none;
+    color: white;
+}
+nav{
+    display: flex;
+    gap: 20px;
+    padding: 30px;
+}
+section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+.caja1{
+    margin: 20px;
+    border: 1px solid grey;
+}
+.caja2{
+    margin: 20px;
+    border: 1px solid grey;
+}
+.caja3{
+    margin: 20px;
+    border: 1px solid grey;
+}
+.caja1 *{
+    margin: 20px;
+}
+.caja2,form,h2 {
+    margin: 20px;
+    
+}
+.caja2 *{
+    margin-top: 5px;
+}
+.caja3 *{
+    margin: 20px;
+    
+}
+.caja2 button{
+    background-color: dodgerblue;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    grid-column: 2/3;
+    padding: 10px;
+    width: 100%;
+}
+.caja2 .nombre{
+    display: flex;
+    flex-direction: column;
+}
+.caja2 .email{
+    display: flex;
+    flex-direction: column;
+}
+.caja2 .desplegable{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.caja2 .opciones{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 5px;
+}
