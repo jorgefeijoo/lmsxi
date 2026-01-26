@@ -31,19 +31,26 @@
 
 <div class="container-fluid d-flex flex-column justify-content-center align-items-center vh-100">
 
-    <h1>bootstrap 5 practice</h1>
-    <p>This section is centered using <b>d-flex</b></p>
-    <button class="btn btn-primary btn-sm" id="openToast">Open Modal</button>
+      <h1>Bootstrap 5 Practive</h1>
+        <p>This section is centered usion d-flex</p>
 
-<div class="toast" id="toast">
-  <div class="toast-header">
-    Bootstrap Modal
-    <button type="button" class="btn-close" data-bs-dismiss="toast"></button>
-  </div>
-  <div class="toast-body">
-    This is a simple modal created using Bootstrap 5
-  </div>
-</div>
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Open Modal</button>
+        
+    </div>
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Bootstrap Modal</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                       This is a simple modal created using Bootstrap 5.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
 
  </div>
 
