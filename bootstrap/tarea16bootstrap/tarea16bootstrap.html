@@ -12,7 +12,7 @@
     
 </body>
 </html>
-<div class="container-fluid">
+<div class="container-fluid vh-100">
 <div class="alert alert-info alert-dismissible">
   <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
  This is a simple info alert! You can close it
@@ -56,10 +56,30 @@
 
 
 <h1>My grid</h1>
+<div class="container mt-4">
+  <div class="row text-center">
+    <div class="col bg-primary text-white p-3 rounded ">Column 1</div>
+    <div class="col bg-success text-white p-3 rounded ms-5 me-5">Column 2</div>
+    <div class="col bg-warning text-dark p-3 rounded">Column 3</div>
+  </div>
+</div>
 
 
 
-<h1>Collapsible Section</h1>
+<h1>Collapsible Section</h1>`
+<p class="d-inline-flex gap-1">
+ 
+  <button class="btn btn-dark" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+   toggle collapsible
+  </button>
+</p>
+<div class="collapse" id="collapseExample">
+  <div class="card card-body">
+   Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime optio eum praesentium veniam numquam aspernatur, atque quo aliquid magnam quae repellat illo autem aut corrupti mollitia iusto aliquam tempore a.
+  </div>
+</div>
+
+
 
 
 
