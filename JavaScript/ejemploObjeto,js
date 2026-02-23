@@ -1,0 +1,15 @@
+const person={
+
+    firstName:"Anxo",
+    lastName: "Liñares",
+    age: 18,
+    mostrar: function(){
+        console.log(this.firstName+" "+this.lastName+" "+this.age);
+        
+    }
+
+    
+    
+}
+
+console.log(person.mostrar());
