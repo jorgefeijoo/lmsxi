@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE email SYSTEM "ejercicio4.dtd">
+<email>
+<de>maria@gmail.com</de>
+<para>ignacio@gmail.com</para>
+<para>pedro@edu.xunta.es</para>
+<asunto>Aí tendes os ficheiros</asunto>
+<adxunto>naPraia.png</adxunto>
+<adxunto>invitacion.odt</adxunto>
+<adxunto>naCea.png</adxunto>
+</email>

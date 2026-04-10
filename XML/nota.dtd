@@ -1,0 +1,5 @@
+<!ELEMENT nota (destinatario+,remitente,cabeceira,corpo)>
+<!ELEMENT destinatario (#PCDATA)>
+<!ELEMENT remitente (#PCDATA)>
+<!ELEMENT cabeceira (#PCDATA)>
+<!ELEMENT corpo (#PCDATA)>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE nota SYSTEM "nota.dtd">
+<nota>
+ <destinatario>Tove</destinatario>
+ <destinatario>Tove</destinatario>
+ <destinatario>Tove</destinatario>
+ <remitente>Jani</remitente>
+ <cabeceira>Recordatorio</cabeceira>
+ <corpo>Chámame!</corpo>
+</nota>

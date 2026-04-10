@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<nota>
+<pausa>
+  <mensaxe>Se o salario e &lt; 1000 entón ...</mensaxe>
+  <Libro categoria="aventuras">...</Libro>
+  <codigo valor="44">...</codigo>
+</pausa>
+</nota>
+
+<!-- un elemento de xml es un elemento creado para estructurar , describir y organizar datos-->
+
+<!-- En el ejercicio 2 la primera parte esta  mal el de mensaxe porque tiene por el medio el caracter < y este caracter esta reservado
+En el elemento libro esta mal porque el valor tiene que estar entre comillas  
+hay un pausa que esta cerrada pero en ningun momento esta abierta por lo que esta mal-->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<bookstore>
+  <book categoria="category">
+    <title lang="lang">Everyday Italian</title>
+    <autor>Giarda De Laurentiis</autor>
+    <year>2005</year>
+    <price>30.00</price>
+
+  </book>
+</bookstore>
