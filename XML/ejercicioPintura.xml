@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pedidos SYSTEM "ejercicioPintura.dtd">
+<pedidos>
+
+    <proovedor>
+        <CIF>A12345678</CIF>
+        <nome>Gosendo</nome>
+        <domicilio>Os tilos</domicilio>
+        <telefono>111111111</telefono>
+    </proovedor>
+
+    <pintura>
+        <marca>dupont</marca>
+        <cor>azul</cor>
+        <cantidade>5</cantidade>
+    </pintura>
+
+    <pintura>
+        <marca>tintanlux</marca>
+        <cor>rojo</cor>
+        <cantidade>3</cantidade>
+    </pintura>
+
+    <data>19-12-2007</data>
+    <hora>19:19</hora>
+
+
+
+</pedidos>

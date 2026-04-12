@@ -1,0 +1,13 @@
+<!ELEMENT pedidos (proovedor, pintura+, data, hora)>
+<!ELEMENT proovedor (CIF, nome, domicilio, telefono)>
+<!ELEMENT pintura (marca, cor, cantidade)>
+
+<!ELEMENT data (#PCDATA)>
+<!ELEMENT hora (#PCDATA)>
+<!ELEMENT CIF (#PCDATA)>
+<!ELEMENT nome (#PCDATA)>
+<!ELEMENT domicilio (#PCDATA)>
+<!ELEMENT telefono (#PCDATA)>
+<!ELEMENT marca (#PCDATA)>
+<!ELEMENT cor (#PCDATA)>
+<!ELEMENT cantidade (#PCDATA)>

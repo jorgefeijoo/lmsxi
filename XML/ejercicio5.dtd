@@ -1,0 +1,12 @@
+<!ELEMENT pedidos (pedido+)>
+
+<!ELEMENT pedido (numero, id_cliente, data, produto+)>
+
+<!ELEMENT produto (id_produto, cantidade, prezo)>
+
+<!ELEMENT numero (#PCDATA)>
+<!ELEMENT id_cliente (#PCDATA)>
+<!ELEMENT data (#PCDATA)>
+<!ELEMENT id_produto (#PCDATA)>
+<!ELEMENT cantidade (#PCDATA)>
+<!ELEMENT prezo (#PCDATA)>
