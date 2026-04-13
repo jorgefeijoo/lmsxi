@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pedidos SYSTEM "ejercicio5.dtd">
+
+<pedidos>
+
+  <pedido>
+    <numero>10</numero>
+    <id_cliente>11</id_cliente>
+    <data>13-04-2026</data>
+
+    <produto>
+      <id_produto>12</id_produto>
+      <cantidade>3</cantidade>
+      <prezo>10</prezo>
+    </produto>
+
+
+    <produto>
+      <id_produto>13</id_produto>
+      <cantidade>5</cantidade>
+      <prezo>16</prezo>
+    </produto>
+
+  </pedido>
+
+  <pedido>
+    <numero>20</numero>
+    <id_cliente>21</id_cliente>
+    <data>13-04-2026</data>
+
+    <produto>
+      <id_produto>22</id_produto>
+      <cantidade>3</cantidade>
+      <prezo>30</prezo>
+    </produto>
+
+    <produto>
+      <id_produto>23</id_produto>
+      <cantidade>8</cantidade>
+      <prezo>56</prezo>
+    </produto>
+
+  </pedido>
+
+
+</pedidos>
