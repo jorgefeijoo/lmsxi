@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<correo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="document.xsd">
+  <destinatario>Rafael</destinatario>
+  <remitente>María</remitente>
+  <cabeceira>Aniversario</cabeceira>
+  <corpo>Lémbrate do aniversario de Ramiro en febreiro.</corpo>
+</correo>

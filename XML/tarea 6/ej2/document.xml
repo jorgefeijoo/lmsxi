@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<enderezos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <enderezoFacturacion>
+    <rua>San Clemente</rua>
+    <numero>4</numero>
+    <cidade>Santiago</cidade>
+    <codigoPostal>15707</codigoPostal>
+  </enderezoFacturacion>
+  <enderezoEnvio>
+    <rua>Nova</rua>
+    <numero>3</numero>
+    <cidade>Ourense</cidade>
+    <codigoPostal>20200</codigoPostal>
+  </enderezoEnvio>
+  <enderezoRegalo>
+    <rua>San Clemente</rua>
+    <numero>4</numero>
+    <cidade>Santiago</cidade>
+    <codigoPostal>15707</codigoPostal>
+  </enderezoRegalo>
+</enderezos>

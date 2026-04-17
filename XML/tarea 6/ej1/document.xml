@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<enderezo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="document.xsd">
+  <rua> San Clemente </rua>
+  <numero> 4 </numero>
+  <cidade> Santiago </cidade>
+  <codigoPostal> 15707 </codigoPostal>
+</enderezo>

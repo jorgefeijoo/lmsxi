@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shop>
+  <order id="1">
+    <customerID>2</customerID>
+    <date>13-04-2026</date>
+
+    <product>
+      <identifier>3</identifier>
+      <quantity> 5</quantity>
+      <price>67</price>
+    </product>
+
+    <product>
+      <identifier>4</identifier>
+      <quantity> 7</quantity>
+      <price>69</price>
+    </product>
+  </order>
+</shop>
