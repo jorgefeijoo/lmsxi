@@ -1,0 +1,13 @@
+{
+  "Libraria":[
+    {
+    "titulo": "El Quijote",
+    "autor":"Miguel de Cervantes",
+    "data":"1600-01-01",
+    "ISBN": "1-41235-441-3",
+    "editorial":"Gosendo"
+    }
+
+
+  ]
+}

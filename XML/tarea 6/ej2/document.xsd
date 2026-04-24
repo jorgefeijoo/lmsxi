@@ -1,13 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:complexType name="tipoEnderezo">
+    <xs:sequence>
+      <xs:element name="rua" type="xs:string" />
+      <xs:element name="numero" type="xs:int" />
+      <xs:element name="cidade" type="xs:string" />
+      <xs:element name="codigoPostal" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+
   <xs:element name="enderezos">
     <xs:complexType>
       <xs:sequence>
-        <xs:element name="rua" type="xs:string" />
-        <xs:element name="numero" type="xs:string" />
-        <xs:element name="cidade" type="xs:string" />
-        <xs:element name="codigoPostal" type="xs:string" />
+        <xs:element name="enderezoFacturacion" type="tipoEnderezo" />
+        <xs:element name="enderezoEnvio" type="tipoEnderezo" />
+        <xs:element name="enderezoRegalo" type="tipoEnderezo" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>
+
 </xs:schema>

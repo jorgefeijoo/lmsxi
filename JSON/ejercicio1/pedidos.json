@@ -1,0 +1,18 @@
+{
+  "identificador": 1234,
+  "importe": 310,
+  "cliente": {
+    "dni": "11111111A",
+    "nome": "pepe"
+  },
+  "lineasPedido": [
+    {
+      "produto": {
+        "id": 2,
+        "descripcion": "mesa" 
+      },
+      "cantidade": 1,
+        "importe": 23
+    }
+  ]
+}

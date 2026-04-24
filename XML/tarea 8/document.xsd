@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="student" type="student"></xs:element>
+  <xs:complexType name="student">
+    <xs:sequence>
+      <xs:element name="name" type="tipoName" />
+      <xs:element name="age" type="tipoAge" />
+      <xs:element name="email" type="xs:string" />
+      <xs:element name="postalCode" type="xs:string" />
+      <xs:element name="gender" type="tipoGender" />
+      <xs:element name="score" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+
+
+  <xs:simpleType name="tipoAge">
+    <xs:restriction base="xs:int">
+      <xs:minInclusive value="0" />
+      <xs:maxInclusive value="120" />
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="tipoGender">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="F" />
+      <xs:enumeration value="M" />
+      <xs:enumeration value="O" />
+    </xs:restriction>
+  </xs:simpleType>
+
+
+  <xs:simpleType name="tipoName">
+    <xs:restriction base="xs:string">
+      <xs:minLength value="3"></xs:minLength>
+    </xs:restriction>
+  </xs:simpleType>
+
+
+</xs:schema>

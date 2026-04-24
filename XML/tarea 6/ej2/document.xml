@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
-<enderezos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<enderezos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="document.xsd">
   <enderezoFacturacion>
     <rua>San Clemente</rua>
     <numero>4</numero>

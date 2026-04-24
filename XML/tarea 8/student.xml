@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<student xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="document.xsd">
+    <name>Ann Cork</name>
+    <age>21</age>
+    <email>ana@example.com</email>
+    <postalCode>15705</postalCode>
+    <gender>F</gender>
+    <score>7 8 9</score>
+</student>

@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<Libraria xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="document.xsd">
+  <Libro>
+    <Titulo>Anso</Titulo>
+    <Autor>Gosendo</Autor>
+    <Data>19-12-2007</Data>
+    <ISBN>1-23456-789-1</ISBN>
+    <Editorial>Pacrama</Editorial>
+
+  </Libro>
+
+
+  <Libro>
+    <Titulo>Gorge</Titulo>
+    <Autor>Eli</Autor>
+    <Data>10-12-2007</Data>
+    <ISBN>8-76543-219-8</ISBN>
+    <Editorial>Cuñado de eli</Editorial>
+
+  </Libro>
+
+</Libraria>
