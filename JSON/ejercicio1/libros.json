@@ -1,0 +1,18 @@
+{
+    "Libreria": [
+        {
+            "titulo": "Don Quijote",
+            "autor": "Miguel de cervantes",
+            "xenero": "Fantastico",
+            "detalle": "Sancho Panza",
+            "prezo": 10
+        },
+        {
+            "titulo": "Lazarillo de Tormes",
+            "autor": "Anonimo",
+            "xenero": "Literario",
+            "detalle": "El ciego",
+            "prezo": 67
+        }
+    ]
+}
