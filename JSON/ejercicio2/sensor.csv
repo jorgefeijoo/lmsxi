@@ -1,0 +1,7 @@
+id, descripcion, sensorType,date,time,value,unit
+2345, Pedroso,anemometer,12/05/2025, 10:00,3600,rotation/hour
+2345, Pedroso,anemometer,12/05/2025, 12:00,2600,rotation/hour
+2345, Pedroso,thermomether,12/05/2025,10:00,0 degrees, Celsius
+2345, Pedroso,thermomether,12/05/2025,12:00,5 degrees, Celsius
+2345, Pedroso,barometer,12/05/2025,10:00, 760 ,mmHg
+2345, Pedroso,barometer,12/05/2025,12:00, 800 ,mmHg

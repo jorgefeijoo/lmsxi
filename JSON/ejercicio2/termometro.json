@@ -1,0 +1,62 @@
+{
+  
+    "id":"2345",
+    "description":"Pedroso",
+    "sensorType":[
+      {
+        "anemometer":[
+          
+        {
+        "date":"12/05/2025",
+        "hour":"10:00",
+        "value":"3600",
+        "unit":"rotation/hour"
+        },
+      
+
+      {
+        "date":"12/05/2025",
+        "hour":"12:00",
+        "value":"3600",
+        "unit":"rotation/hour"
+      }
+    
+    ],
+
+      "thermomether":
+      [
+        {
+        "date":"12/05/2025",
+        "hour":"10:00",
+        "value":"0",
+        "unit":"degrees"
+      },
+
+        {
+        "date":"12/05/2025",
+        "hour":"10:00",
+        "value":"5",
+        "unit":"degrees"
+      }
+    ],
+
+
+      
+      "barometer":[
+        {
+        "date":"12/05/2025",
+        "hour":"10:00",
+        "value":"760",
+        "unit":"mmHg"
+      },
+      {
+        "date":"12/05/2025",
+        "hour":"12:00",
+        "value":"800",
+        "unit":"mmHg"
+      }
+    ]
+    }
+    ]
+  
+}

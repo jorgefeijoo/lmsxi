@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<weatherStation>
+  <id>2345</id>
+  <description>Pedroso</description>
+  <sensors>
+    <type>anemometer <measurements>
+        <date>12/05/2025</date>
+        <time>10:00</time>
+        <value>3600</value>
+        <unit>rotation/hour</unit>
+      </measurements>
+
+      <measurements>
+        <date>12/05/2025</date>
+        <time>12:00</time>
+        <value>2600</value>
+        <unit>rotation/hour</unit>
+      </measurements>
+    </type>
+
+
+    <type>anemometer <measurements>
+        <date>12/05/2025</date>
+        <time>10:00</time>
+        <value>0</value>
+        <unit>degrees</unit>
+      </measurements>
+
+      <measurements>
+        <date>12/05/2025</date>
+        <time>12:00</time>
+        <value>5</value>
+        <unit>degrees</unit>
+      </measurements>
+    </type>
+
+    <type>barometer <measurements>
+        <date>12/05/2025</date>
+        <time>10:00</time>
+        <value>760</value>
+        <unit>mmHg</unit>
+      </measurements>
+
+      <measurements>
+        <date>12/05/2025</date>
+        <time>12:00</time>
+        <value>800</value>
+        <unit>mmHg</unit>
+      </measurements>
+    </type>
+
+  </sensors>
+
+
+</weatherStation>
