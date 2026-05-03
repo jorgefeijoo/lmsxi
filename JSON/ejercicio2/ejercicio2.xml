@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<user>
+<name>Alice</name>
+<age>29</age>
+<email>alice@example.com</email>
+<address>
+    <street>123 Main st</street>
+    <city>"Colchester</city>
+    <country>UK</country>
+    <geo>
+        <lat>42.8806</lat>
+        <lng>-8.5456</lng>
+    </geo>
+</address>
+<hobbies>reading,cycling,music</hobbies>
+<orders>
+    <orderId>A001
+        <total>59.99</total>
+        <items>
+            name:Book,quantity:1
+            name:Pen.quantity:2
+        </items>
+    </orderId>
+
+    <orderId>
+        A002
+        <total>120.99</total>
+        <items>name:Heaphones,quantity:4</items>
+    </orderId>
+</orders>
+
+</user>

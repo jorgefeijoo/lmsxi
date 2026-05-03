@@ -1,0 +1,48 @@
+{
+    "user": [
+        {
+            "name": "Alice",
+            "age": 29,
+            "email": "alice@example.com",
+            "address": {
+                "street": "123 main st",
+                "city": "Colchester",
+                "country": "UK",
+                "geo": {
+                    "lat": 42.8806,
+                    "lng": -8.5456
+                }
+            },
+            "hobbies": [
+                "reading",
+                "cycling",
+                "music"
+            ],
+            "orders": [
+                {
+                    "orderId": "A001",
+                    "total": 59.99,
+                    "items": [
+                        {
+                            "name": "Book",
+                            "quantity": 1
+                        },
+                        {
+                            "name": "Pen",
+                            "quantity": 2
+                        }
+                    ]
+                },
+                {
+                    "orderId": "A002",
+                    "total": 120.99,
+                    "items": [{
+                        "name": "Headphones",
+                        "quantity": 4
+                    }
+                ]
+                }
+            ]
+        }
+    ]
+}
