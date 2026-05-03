@@ -12,18 +12,31 @@
         <lng>-8.5456</lng>
     </geo>
 </address>
-<hobbies>reading,cycling,music</hobbies>
+<hobbies>
+<hobby>reading</hobby>
+<hobby>cycling</hobby>
+<hobby>music</hobby>
+</hobbies>
 <orders>
-    <orderId>A001
+    <orderId>
+        <id>A001</id>
         <total>59.99</total>
         <items>
-            name:Book,quantity:1
-            name:Pen.quantity:2
+            <item>
+            <name>Book</name>
+            <quantity>1</quantity>
+            </item>
+
+             <item>
+            <name>Pen</name>
+            <quantity>2</quantity>
+            </item>
+
         </items>
     </orderId>
 
     <orderId>
-        A002
+        <id>A002</id>
         <total>120.99</total>
         <items>name:Heaphones,quantity:4</items>
     </orderId>
