@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="Conference">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="ConfenceId" type="xs:ID" minOccurs="1" maxOccurs="1"></xs:element>
+                <xs:element name="name" type="xs:string"></xs:element>
+                <xs:element name="edition" type="xs:integer"></xs:element>
+                <xs:element name="theme" type="xs:string"></xs:element>
+                <xs:element name="startDate" type="xs:date"></xs:element>
+                <xs:element name="endDate" type="xs:date"></xs:element>
+                <xs:element name="year" type="xs:integer"></xs:element>
+                <xs:element name="location">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="city" type="xs:string"></xs:element>
+                            <xs:element name="country" type="xs:string"></xs:element>
+                            <xs:element name="venue" type="xs:string"></xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+
+                <xs:element name="tracks">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="subjects" type="xs:string"></xs:element>
+                            <xs:element name="subjects" type="xs:string"></xs:element>
+                            <xs:element name="subjects" type="xs:string"></xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+
+                <xs:element name="Sessions">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="sessionId" type="xs:ID" minOccurs="1"
+                                maxOccurs="1"></xs:element>
+                            <xs:element name="title" type="xs:string"></xs:element>
+                            <xs:element name="capacity" type="xs:integer"></xs:element>
+                            <xs:element name="date" type="xs:date"></xs:element>
+                            <xs:element name="startTime" type="xs:time"></xs:element>
+                            <xs:element name="endTime" type="xs:time"></xs:element>
+                            <xs:element name="speakers">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="SpeakerID" type="xs:ID"></xs:element>
+                                        <xs:element name="Fullname" type="xs:string"></xs:element>
+                                        <xs:element name="affiliation" type="xs:string"></xs:element>
+                                        <xs:element name="country" type="xs:string"></xs:element>
+                                        <xs:element name="topics">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="topic" type="xs:string"></xs:element>
+                                                    <xs:element name="topic" type="xs:string"></xs:element>
+                                                    <xs:element name="topic" type="xs:string"></xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+
+
+                            <xs:element name="speakers">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="SpeakerID" type="xs:ID" minOccurs="1"
+                                            maxOccurs="1"></xs:element>
+                                        <xs:element name="Fullname" type="xs:string"></xs:element>
+                                        <xs:element name="affiliation" type="xs:string"></xs:element>
+                                        <xs:element name="country" type="xs:string"></xs:element>
+                                        <xs:element name="topics">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="topic" type="xs:string"></xs:element>
+                                                    <xs:element name="topic" type="xs:string"></xs:element>
+                                                    <xs:element name="topic" type="xs:string"></xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+
+
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+
+
+                <xs:element name="Sessions">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="sessionId" type="xs:ID" minOccurs="1"
+                                maxOccurs="1"></xs:element>
+                            <xs:element name="title" type="xs:string"></xs:element>
+                            <xs:element name="capacity" type="xs:integer"></xs:element>
+                            <xs:element name="date" type="xs:date"></xs:element>
+                            <xs:element name="startTime" type="xs:time"></xs:element>
+                            <xs:element name="endTime" type="xs:time"></xs:element>
+                            <xs:element name="speakers">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="SpeakerID" type="xs:ID" minOccurs="1"
+                                            maxOccurs="1"></xs:element>
+                                        <xs:element name="Fullname" type="xs:string"></xs:element>
+                                        <xs:element name="affiliation" type="xs:string"></xs:element>
+                                        <xs:element name="country" type="xs:string"></xs:element>
+                                        <xs:element name="topics">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="topic" type="xs:string"></xs:element>
+                                                    <xs:element name="topic" type="xs:string"></xs:element>
+                                                    <xs:element name="topic" type="xs:string"></xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+
+
+                            <xs:element name="speakers">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="SpeakerID" type="xs:ID" minOccurs="1"
+                                            maxOccurs="1"></xs:element>
+                                        <xs:element name="Fullname" type="xs:string"></xs:element>
+                                        <xs:element name="affiliation" type="xs:string"></xs:element>
+                                        <xs:element name="country" type="xs:string"></xs:element>
+                                        <xs:element name="topics">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="topic" type="xs:string"></xs:element>
+                                                    <xs:element name="topic" type="xs:string"></xs:element>
+                                                    <xs:element name="topic" type="xs:string"></xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+
+
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+
+                <xs:element name="Participants">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="ParticipantId" type="xs:string"></xs:element>
+                            <xs:element name="name" type="xs:string"></xs:element>
+                            <xs:element name="email" type="xs:string"></xs:element>
+                            <xs:element name="organization" type="xs:string" minOccurs="0"> </xs:element>
+                            <xs:element name="registrionObject">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="registrationId" type="xs:string"></xs:element>
+                                        <xs:element name="status" type="tipoStatus"></xs:element>
+                                        <xs:element name="registeredSessions">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="sessionsId" type="xs:string"></xs:element>
+                                                    <xs:element name="sessionsId" type="xs:string"></xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="paymentObject">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="amount" type="minAmount"></xs:element>
+                                        <xs:element name="currency" type="tipoCurrency"></xs:element>
+                                        <xs:element name="paid" type="xs:boolean"></xs:element>
+                                        <xs:element name="method" type="tipoMethod"></xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+
+                <xs:element name="Participants">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="ParticipantId" type="xs:string"></xs:element>
+                            <xs:element name="name" type="xs:string"></xs:element>
+                            <xs:element name="email" type="xs:string"></xs:element>
+                            <xs:element name="organization" type="xs:string" minOccurs="0"> </xs:element>
+                            <xs:element name="registrionObject">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="registrationId" type="xs:string"></xs:element>
+                                        <xs:element name="status" type="tipoStatus"></xs:element>
+                                        <xs:element name="registeredSessions">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="sessionsId" type="xs:string"></xs:element>
+                                                    <xs:element name="sessionsId" type="xs:string"></xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="paymentObject">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="amount" type="minAmount"></xs:element>
+                                        <xs:element name="currency" type="tipoCurrency"></xs:element>
+                                        <xs:element name="paid" type="xs:boolean"></xs:element>
+                                        <xs:element name="method" type="tipoMethod"></xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+
+            </xs:sequence>
+        </xs:complexType>
+
+    </xs:element>
+
+
+    <xs:simpleType name="tipoStatus">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="pending" />
+            <xs:enumeration value="confirmed" />
+            <xs:enumeration value="cancelled" />
+        </xs:restriction>
+    </xs:simpleType>
+
+
+    <xs:simpleType name="tipoMethod">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="card" />
+            <xs:enumeration value="bank_transfer" />
+            <xs:enumeration value="cash" />
+        </xs:restriction>
+    </xs:simpleType>
+
+
+    <xs:simpleType name="tipoCurrency">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="EUR|USD" />
+        </xs:restriction>
+    </xs:simpleType>
+
+
+  
+        <xs:simpleType name="minAmount">
+            <xs:restriction base="xs:decimal">
+                <xs:minExclusive value="0" />
+            </xs:restriction>
+        </xs:simpleType>
+
+
+
+</xs:schema>

@@ -1,0 +1,58 @@
+<!ELEMENT Conference (ConfenceId, name, edition, theme, startDate, endDate, year, location, tracks, Sessions+, Participants+)>
+
+
+<!ELEMENT ConfenceId (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT edition (#PCDATA)>
+<!ELEMENT theme (#PCDATA)>
+<!ELEMENT startDate (#PCDATA)>
+<!ELEMENT endDate (#PCDATA)>
+<!ELEMENT year (#PCDATA)>
+
+
+<!ELEMENT location (city, country, venue)>
+<!ELEMENT city (#PCDATA)>
+<!ELEMENT country (#PCDATA)>
+<!ELEMENT venue (#PCDATA)>
+
+
+<!ELEMENT tracks (subjects+)>
+<!ELEMENT subjects (#PCDATA)>
+
+
+<!ELEMENT Sessions (sessionId, title, capacity, date, startTime, endTime, speakers+)>
+<!ELEMENT sessionId (#PCDATA)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT capacity (#PCDATA)>
+<!ELEMENT date (#PCDATA)>
+<!ELEMENT startTime (#PCDATA)>
+<!ELEMENT endTime (#PCDATA)>
+
+
+<!ELEMENT speakers (SpeakerID, Fullname, affiliation, country, topics)>
+<!ELEMENT SpeakerID (#PCDATA)>
+<!ELEMENT Fullname (#PCDATA)>
+<!ELEMENT affiliation (#PCDATA)>
+<!ELEMENT topics (topic+)>
+<!ELEMENT topic (#PCDATA)>
+
+
+<!ELEMENT Participants (ParticipantId, name, email, organization, registrionObject, paymentObject)>
+<!ELEMENT ParticipantId (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT organization (#PCDATA)>
+
+
+<!ELEMENT registrionObject (registrationId, status, registeredSessions)>
+<!ELEMENT registrationId (#PCDATA)>
+<!ELEMENT status (#PCDATA)>
+
+<!ELEMENT registeredSessions (sessionsId+)>
+<!ELEMENT sessionsId (#PCDATA)>
+
+
+<!ELEMENT paymentObject (amount, currency, paid, method)>
+<!ELEMENT amount (#PCDATA)>
+<!ELEMENT currency (#PCDATA)>
+<!ELEMENT paid (#PCDATA)>
+<!ELEMENT method (#PCDATA)>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="document.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<Conference>
+    <ConfenceId>A12345</ConfenceId>
+    <name>Gosendo</name>
+    <edition>3</edition>
+    <theme>Computer Science</theme>
+    <startDate>2026-05-13</startDate>
+    <endDate>2026-05-14</endDate>
+    <year>2026</year>
+    <location>
+        <city>Santiago</city>
+        <country>Spain</country>
+        <venue>Av da rosa</venue>
+    </location>
+    <tracks>
+        <subjects>AI</subjects>
+        <subjects>Quantum Computing</subjects>
+        <subjects>biotech</subjects>
+    </tracks>
+    <Sessions>
+        <sessionId>A123</sessionId>
+        <title>Third computer science conference</title>
+        <capacity>400</capacity>
+        <date>2026-05-14</date>
+        <startTime>18:00:00</startTime>
+        <endTime>21:00:00</endTime>
+
+        <speakers>
+            <SpeakerID>C123</SpeakerID>
+            <Fullname>Elisabeth gudiño xevi</Fullname>
+            <affiliation>Rolex</affiliation>
+            <country>Spain</country>
+            <topics>
+                <topic>Python</topic>
+                <topic>JS</topic>
+                <topic>Java</topic>
+            </topics>
+        </speakers>
+
+
+        <speakers>
+            <SpeakerID>A1234</SpeakerID>
+            <Fullname>Anso liñares</Fullname>
+            <affiliation>MSI</affiliation>
+            <country>Spain</country>
+            <topics>
+                <topic>MongoDB</topic>
+                <topic>SQL</topic>
+                <topic>SQLite</topic>
+            </topics>
+        </speakers>
+    </Sessions>
+
+    <Sessions>
+        <sessionId>V321</sessionId>
+        <title>Cibersecurity</title>
+        <capacity>500</capacity>
+        <date>2026-05-14</date>
+        <startTime>18:00:00</startTime>
+        <endTime>21:00:00</endTime>
+
+        <speakers>
+            <SpeakerID>P987</SpeakerID>
+            <Fullname>Paleolitico</Fullname>
+            <affiliation>HP</affiliation>
+            <country>Spain</country>
+            <topics>
+                <topic>Python</topic>
+                <topic>JS</topic>
+                <topic>Java</topic>
+            </topics>
+        </speakers>
+
+
+        <speakers>
+            <SpeakerID>O4321</SpeakerID>
+            <Fullname>Yor Mouro</Fullname>
+            <affiliation>MSI</affiliation>
+            <country>Spain</country>
+            <topics>
+                <topic>MongoDB</topic>
+                <topic>SQL</topic>
+                <topic>SQLite</topic>
+            </topics>
+        </speakers>
+    </Sessions>
+
+    <Participants>
+        <ParticipantId>567</ParticipantId>
+        <name>Gosendo</name>
+        <email>gosendo@gmail.com</email>
+        <organization>panaderia mimo</organization>
+        <registrionObject>
+            <registrationId>987</registrationId>
+            <status>confirmed</status>
+            <registeredSessions>
+                <sessionsId>1</sessionsId>
+                <sessionsId>2</sessionsId>
+            </registeredSessions>
+        </registrionObject>
+        <paymentObject>
+            <amount>32.5</amount>
+            <currency>EUR</currency>
+            <paid>true</paid>
+            <method>card</method>
+
+        </paymentObject>
+    </Participants>
+
+
+    <Participants>
+        <ParticipantId>567</ParticipantId>
+        <name>Pacrama</name>
+        <email>pacrama@gmail.com</email>
+        <organization>cartel mawey</organization>
+        <registrionObject>
+            <registrationId>321</registrationId>
+            <status>confirmed</status>
+            <registeredSessions>
+                <sessionsId>3</sessionsId>
+                <sessionsId>4</sessionsId>
+            </registeredSessions>
+        </registrionObject>
+        <paymentObject>
+            <amount>50.5</amount>
+            <currency>EUR</currency>
+            <paid>true</paid>
+            <method>cash</method>
+        </paymentObject>
+    </Participants>
+</Conference>

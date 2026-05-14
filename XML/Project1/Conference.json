@@ -1,0 +1,105 @@
+{
+    "conferenceID": "123",
+    "name": "gosendo",
+    "edition": 3,
+    "theme": "computer science",
+    "startDate": "2026-05-14",
+    "endDate": "2026-05-14",
+    "year": 2026,
+    "location": {
+        "city": "Castenda",
+        "country": "Spain",
+        "venue": "Av da Rosa"
+    },
+    "tracks": [
+        "IA",
+        "Quantum Computing",
+        "Biotech"
+    ],
+    "Sessions": [
+        {
+            "sessionId": "123",
+            "title": "computer science",
+            "capacity": "500",
+            "date": "2026-05-14",
+            "startTime": "18:00",
+            "endTime": "21:00",
+            "speakers": [
+                {
+                    "speakerId": "1234",
+                    "fullname": "cuñado de eli",
+                    "affiliation": "MSI",
+                    "country": "Spain",
+                    "topics": [
+                        "Java",
+                        "JavaScript",
+                        "SQL"
+                    ]
+                }
+            ]
+        },
+        {
+            "sessionId": "123",
+            "title": "computer science",
+            "capacity": "500",
+            "date": "2026-05-14",
+            "startTime": "18:00",
+            "endTime": "21:00",
+            "speakers": [
+                {
+                    "speakerId": "1234",
+                    "fullname": "cuñado de eli",
+                    "affiliation": "MSI",
+                    "country": "Spain",
+                    "topics": [
+                        "Java",
+                        "JavaScript",
+                        "SQL"
+                    ]
+                }
+            ]
+        }
+    ],
+    "Participants": [
+        {
+            "ParticipantID": "12345",
+            "name": "anso",
+            "email": "anso@gmail.com",
+            "organization": "HP",
+            "registrationObject": {
+                "registrationID": "987",
+                "status": "pending",
+                "registredSessions": [
+                    "1234",
+                    "9876"
+                ]
+            },
+            "paymentObeject": {
+                "amount": 120.5,
+                "currency": "EUR",
+                "paid": true,
+                "method": "card"
+            }
+        },
+        {
+            "ParticipantID": "12345",
+            "name": "anso",
+            "email": "anso@gmail.com",
+            "organization": "HP",
+            "registrationObject": {
+                "registrationID": "987",
+                "status": "pending",
+                "registredSessions": [
+                    "1234",
+                    "9876"
+                ]
+            },
+            "paymentObeject": {
+                "amount": 120.5,
+                "currency": "EUR",
+                "paid": true,
+                "method": "card"
+            }
+        }
+    ]
+}
