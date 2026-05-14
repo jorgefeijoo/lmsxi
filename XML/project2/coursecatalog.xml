@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<courseCatalog year="2026">
+
+    <course id="C-101" level="beginner">
+        <title>Introduction to XML</title>
+
+        <description>
+            Learn the basics of XML and document structure.
+        </description>
+
+        <instructor>
+            <name>Maria Gomez</name>
+            <email>maria.gomez@example.com</email>
+        </instructor>
+
+        <duration>24</duration>
+
+        <tags>
+            <tag>xml</tag>
+            <tag>markup</tag>
+            <tag>beginner</tag>
+        </tags>
+    </course>
+
+    <course id="C-205" level="intermediate">
+        <title>XML Schema Design</title>
+
+        <instructor>
+            <name>David Chen</name>
+            <email>david.chen@example.com</email>
+            <phone>+34-555-1200</phone>
+        </instructor>
+
+        <instructor>
+            <name>Sara Ali</name>
+        </instructor>
+
+        <duration>40</duration>
+
+        <tags>
+            <tag>xsd</tag>
+            <tag>validation</tag>
+        </tags>
+    </course>
+
+    <course id="C-310" level="advanced">
+        <title>Advanced Data Exchange</title>
+
+        <description>
+            Advanced XML usage for enterprise systems.
+        </description>
+
+        <instructor>
+            <name>Lucas Martin</name>
+            <email>lucas.martin@example.com</email>
+        </instructor>
+
+        <duration>60</duration>
+
+    </course>
+
+</courseCatalog>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="courseCatalog">
+
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="course" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="title" type="xs:string" minOccurs="1"
+                            ></xs:element>
+                            <xs:element name="description" type="xs:string" minOccurs="0"
+                            ></xs:element>
+                            <xs:element name="instructor" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="name" type="xs:string" minOccurs="1"
+                                        ></xs:element>
+                                        <xs:element name="email" type="xs:string" minOccurs="0"
+                                        ></xs:element>
+                                        <xs:element name="phone" type="xs:string" minOccurs="0"></xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="duration" type="tipoDuracion"></xs:element>
+                            <xs:element name="tags" minOccurs="0" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="tag" type="tipoTag"
+                                            maxOccurs="unbounded"></xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="id" type="xs:ID" use="required"></xs:attribute>
+                        <xs:attribute name="level" type="tipoLevel" use="required"></xs:attribute>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+            <xs:attribute name="year" type="tipoAño" use="required"></xs:attribute>
+        </xs:complexType>
+    </xs:element>
+
+
+    <xs:simpleType name="tipoDuracion">
+        <xs:restriction base="xs:integer">
+            <xs:minInclusive value="1" />
+            <xs:maxInclusive value="500" />
+        </xs:restriction>
+    </xs:simpleType>
+
+
+    <xs:simpleType name="tipoAño">
+        <xs:restriction base="xs:integer">
+            <xs:minInclusive value="2020" />
+            <xs:maxInclusive value="2030" />
+        </xs:restriction>
+    </xs:simpleType>
+
+
+    <xs:simpleType name="tipoLevel">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="beginner" />
+            <xs:enumeration value="intermediate" />
+            <xs:enumeration value="advanced" />
+        </xs:restriction>
+    </xs:simpleType>
+
+
+    <xs:simpleType name="tipoTag">
+        <xs:restriction base="xs:string">
+            <xs:minLength value="3"></xs:minLength>
+        </xs:restriction>
+    </xs:simpleType>
+
+
+</xs:schema>
