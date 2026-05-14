@@ -1,0 +1,32 @@
+{
+  data: new Date(),
+  client: "Gosendo",
+  orderLines: [
+    {
+      product: {
+        productName: "Rato",
+        description: "Rato inalambrico",
+        picture: "red and black",
+        amount: 23.50
+      },
+      numberOfUnits: 18,
+      totalAmount: 423.00
+    }
+  ],
+  amount: 423.00,
+  delivered: true
+}
+
+
+//db.Orders.find({"client":"Gosendo"})
+
+//db.Orders.find()
+
+/*db.Orders.updateOne(
+
+  { "orderLines.product.amount": 23.5 }, // Filtro
+  { $set: { "amount": 25 } }             // Actualización
+)*/
+
+
+//db.Orders.deleteOne({"client":"Gosendo"} )

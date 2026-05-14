@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<library>
+    <books>
+        <book id="1">
+            <title>XML Basics</title>
+            <author>John Doe</author>
+            <year>2020</year>
+        </book>
+
+        <book id="2">
+            <title>Advanced XML</title>
+            <author>Jane Smith</author>
+            <year>2021</year>
+        </book>
+
+        <book id="3">
+            <title>XML Schemas</title>
+            <author>Mark Lee</author>
+            <year>2019</year>
+            <categories>
+                <cat>Computer Science</cat>
+                <cat>Engineering
+                </cat>
+            </categories>
+        </book>
+
+        <book id="4">
+            <title>Another Book</title>
+            <author>Anna White</author>
+            <author>Tom Ashtray <year>2022</year></author>
+        </book>
+
+    </books>
+
+    <magazine>
+        <title>Tech Monthly</title>
+        <issue>April 2023</issue>
+    </magazine>
+
+</library>
